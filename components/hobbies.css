@@ -1,0 +1,67 @@
+.row {
+  display: grid;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 16px;
+  width: 100%;
+  margin: 25px auto;
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+  margin: 10px 0;
+  margin-right: 5px;
+  margin-left: 5px;
+  justify-content: center;
+  align-content: center;
+}
+
+.video-games-card {
+  background: linear-gradient(to bottom, #434087, #121042);
+  color: white;
+  padding: 16px 24px;
+  border: 4px white outset;
+  border-radius: 8px;
+}
+
+.astronomy-card {
+  background: linear-gradient(to bottom, #9290C3, #070F2B);
+  color: white;
+  padding: 16px 24px;
+  border: 4px white outset;
+  border-radius: 8px;
+}
+
+.badminton-card {
+  background: linear-gradient(to bottom, #A91D3A, #151515);
+  color: white;
+  padding: 16px 24px;
+  border: 4px white outset;
+  border-radius: 8px;
+}
+
+.write-card {
+  background: linear-gradient(to bottom, #FFF2D7, #D8AE7E);
+  color: #322C2B;
+  padding: 16px 24px;
+  border: 4px white outset;
+  border-radius: 8px;
+}
+
+.boardgame-card {
+  background: linear-gradient(to bottom, #4793AF, #DD5746);
+  color: white;
+  padding: 16px 24px;
+  border: 4px white outset;
+  border-radius: 8px;
+}
+
+.human-sciences-card {
+  background: linear-gradient(to bottom, #034fa2, #179630);
+  color: white;
+  padding: 16px 24px;
+  border: 4px white outset;
+  border-radius: 8px;
+}

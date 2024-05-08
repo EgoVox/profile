@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  /* width: auto;
+  margin: auto;
+  height: auto;
+  background-color: #524C42;
+  padding: 25px;
+  margin: 25px 15px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #32012F;
+  justify-content: center;
+  font-family: "Montserrat"; */
+}

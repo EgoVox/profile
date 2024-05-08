@@ -1,0 +1,27 @@
+.diagonal-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  transform: translateX(50%) translateY(-50%) rotate(45deg);
+  transform-origin: center;
+  z-index: 1;
+}
+
+.diagonal-text::before {
+  content: "";
+  display: block;
+  height: 0;
+  padding-top: 100%;
+}
+
+.diagonal-text>span {
+  display: inline-block;
+  background: #eb8c00;
+  padding: 6px 45px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+}

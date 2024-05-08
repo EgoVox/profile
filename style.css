@@ -1,97 +1,33 @@
-.round-corner {
-  border-radius: 100px;
-}
-
-.card {
-  text-align: center;
-  padding: 25px;
-  background: #524C42;
-  margin: 25px 280px auto;
-  border: 2px solid gray;
-  border-radius: 5px;
-  box-shadow: 1px 1px 2px #32012F;
-  width: auto;
-  color: white;
-  font-family: "Montserrat";
-}
-
-#inline_list li {
-  display: inline;
-  color: #524C42;
-  background-color: #E2DFD0;
-  padding: 10px;
-  border: 2px;
-  border-radius: 50px;
-  box-shadow: 2px 1px 2px rgb(186, 181, 181);
-  font-weight: bold;
-  margin-right: 5px;
-  margin-left: 5px;
-  font-family: "Montserrat";
-}
-
-#inline_list a {
-  text-decoration: none;
-  color: #32012F;
-  font-family: "Montserrat";
-}
-
-#inline_list a:hover {
-  color: #DC5404;
-}
+@import url("https: //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+@import url("components/container.css");
+@import url("components/font.css");
+@import url("components/left-column.css");
+@import url("components/right-column.css");
+@import url("components/corner-round.css");
+@import url("components/skills.css");
+@import url("components/hobbies.css");
+@import url("components/icons-delay.css");
+@import url("components/text-diagonal.css");
+@import url("components/list-inline.css");
 
 body {
-  background-color: #E2DFD0;
+  /* margin: 100px; */
+  font-family: 'Open Sans', sans-serif;
 }
 
-#linkedin_delay {
-  animation-delay: -1500ms;
+h1, h2, h3 {
+  font-family: "Montserrat";
 }
 
-#discord_delay {
-  animation-delay: -750ms;
+a {
+  text-decoration: none;
 }
 
-.montserrat-my_site {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 25px auto;
-  justify-content: center;
-  width: calc(100% - 560px);
-}
-
-.column {
-  flex: 1;
-  margin: 10px 0;
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-.imgHolder {
-  position: relative;
-}
-
-.imgHolder span {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-
-.diagonal-text>span {
-  display: inline-block;
-  background: #eb8c00;
-  padding: 6px 10px;
-  transform: translateY(-40%) translateX(-420%) rotate(-45deg);
-  font-size: 18px;
+.text-center {
   text-align: center;
-  color: white;
-  white-space: nowrap;
+}
+
+ul {
+  list-style-type: none;
 }

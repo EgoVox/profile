@@ -1,0 +1,22 @@
+.inline-list li {
+  display: inline;
+  color: #524C42;
+  background-color: #E2DFD0;
+  padding: 10px;
+  border: 2px;
+  border-radius: 50px;
+  box-shadow: 2px 1px 2px rgb(186, 181, 181);
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: "Montserrat";
+}
+
+.inline-list a {
+  text-decoration: none;
+  color: #32012F;
+}
+
+.inline-list a:hover {
+  color: #DC5404;
+}
