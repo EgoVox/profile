@@ -18,14 +18,14 @@
   align-content: center;
 }
 
-.video-games-card {
+.hobbies-card {
   background: linear-gradient(to bottom, #434087, #121042);
   color: white;
   padding: 16px 24px;
   border: 4px white outset;
   border-radius: 8px;
 }
-
+/*
 .astronomy-card {
   background: linear-gradient(to bottom, #9290C3, #070F2B);
   color: white;
@@ -64,4 +64,4 @@
   padding: 16px 24px;
   border: 4px white outset;
   border-radius: 8px;
-}
+} */
